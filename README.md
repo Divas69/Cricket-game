@@ -21,4 +21,4 @@ This is a fun and interactive cricket game built using HTML, CSS, and JavaScript
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/Dibash69/cricket-game.git
+   git clone https://github.com/Divas69/cricket-game.git
