@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🏏 Cricket Bat Swing Game</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="controls">
+  <select id="ballStyle">
+    <option value="fast">Fast</option>
+    <option value="slow">Slow</option>
+    <option value="spin">Spin</option>
+    <option value="yorker">Yorker</option>
+    <option value="googly">Googly</option>
+  </select>
+  <button onclick="hitBall()">Bowl!</button>
+</div>
+
+<div class="scoreboard">
+  <div> Score board </div>
+  <div>🏏 Runs: <span id="runs">0</span></div>
+  <div>☄️ Balls: <span id="balls">0</span></div>
+</div>
+
+<div id="message"></div>
+
+<canvas id="gameCanvas"></canvas>
+
+<script src="js/script.js"></script>
+</body>
+</html>
